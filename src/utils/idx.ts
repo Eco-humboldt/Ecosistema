@@ -633,7 +633,7 @@ export const directoryData = [
     direccion: "Dirección Conocimiento",
     gerencia: "Centro de Colecciones y Gestión de Especies",
   },
-  
+
   {
     id: "58",
     name: "Socorro Sierra",
@@ -776,7 +776,7 @@ export const directoryData = [
     direccion: "Dirección Conocimiento",
     gerencia: "Centro de Colecciones y Gestión de Especies",
   },
-  
+
   {
     id: "71",
     name: "Jhon Neita",
@@ -4159,7 +4159,7 @@ export const directoryData = [
     direccion: "Dirección de Conocimiento",
     gerencia: "Centro de Economía y Finanzas de la Biodiversidad",
   },
-  
+
   {
     id: "381",
     name: "Oscar H. Ibañez",
@@ -5575,14 +5575,25 @@ export const directoryData = [
   {
     id: "505",
     name: "Diana P. Herrera",
-    position: "Centro Estudios",
+    position: "Centro Estudios Socio Ecológicos y Cambio Global",
     email: "dherrera@humboldt.org.co",
     image:
       "img/directorio/DICO/estudiossocioecologicos/analisisecosistemas/Diana Patricia Herrera Lemus.jpg",
-    ciudad: "bogota",
+    ciudad: "Bogotá",
     profesion: "Analista Senior",
     direccion: "Dirección de Conocimiento",
-    gerencia: "Centro Estudios Socioecológicos y Cambio Globa",
+    gerencia: "Centro Estudios Socioecológicos y Cambio Global",
+  },
+  {
+    id: "506",
+    name: "Evelin Alarcón Sierra",
+    position: "Auxiliar Senior",
+    email: "ealarcon@humboldt.org.co",
+    image: "img/directorio/DDO/gestionhumana/talentohumano/Evelin Alarcon.png",
+    ciudad: "Bogotá",
+    profesion: "Tecnólogo en Gestión de Talento Humano",
+    direccion: "Dirección de Desarrollo Organizacional",
+    gerencia: "Gerencia de Gestión Humana",
   },
 ];
 
