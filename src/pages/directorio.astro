@@ -16219,6 +16219,14 @@ import Layout from "../layouts/Layout.astro";
 <script src="flowbite/dist/flowbite.min.js"></script>
 
 <style is:global>
+  :root {
+    --bio-ink: #173f34;
+    --bio-ink-soft: #2c5a4f;
+    --bio-mist: #f4f8f5;
+    --bio-border: rgba(29, 71, 58, 0.18);
+    --bio-shadow: rgba(17, 53, 69, 0.09);
+  }
+
   .link-card-grid2 {
     display: flex;
     justify-content: space-around;
@@ -16277,32 +16285,46 @@ import Layout from "../layouts/Layout.astro";
   :where([id^="accordion-collapse-body-"], #searchResults)
     div[class*="bg-white"][class*="rounded-2xl"][class*="shadow-lg"] {
     box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
     width: 240px !important;
     max-width: 240px;
     min-width: 240px;
     height: 340px;
     min-height: 340px;
     padding: 1.5rem 1.25rem 1.35rem;
-    border: 1px solid rgba(17, 53, 69, 0.1);
+    border: 1px solid var(--bio-border);
     border-radius: 24px;
-    background: linear-gradient(180deg, #ffffff 0%, #f6fafc 100%);
+    background: linear-gradient(180deg, #ffffff 0%, #f8fbf8 74%, #f2f7f3 100%);
     box-shadow:
-      0 10px 24px rgba(17, 53, 69, 0.08),
+      0 12px 28px var(--bio-shadow),
       0 2px 8px rgba(17, 53, 69, 0.04);
     flex: 0 0 240px;
     transition:
-      transform 180ms ease,
-      box-shadow 180ms ease,
-      border-color 180ms ease;
+      transform 200ms ease,
+      box-shadow 200ms ease,
+      border-color 200ms ease;
+  }
+
+  :where([id^="accordion-collapse-body-"], #searchResults)
+    div[class*="bg-white"][class*="rounded-2xl"][class*="shadow-lg"]::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 6px;
+    background: #113545;
+    pointer-events: none;
   }
 
   :where([id^="accordion-collapse-body-"], #searchResults)
     div[class*="bg-white"][class*="rounded-2xl"][class*="shadow-lg"]:hover {
-    transform: translateY(-4px);
-    border-color: rgba(12, 76, 103, 0.22);
+    transform: translateY(-3px);
+    border-color: rgba(42, 106, 88, 0.28);
     box-shadow:
-      0 18px 38px rgba(17, 53, 69, 0.12),
-      0 4px 10px rgba(17, 53, 69, 0.08);
+      0 18px 34px rgba(17, 53, 69, 0.13),
+      0 5px 11px rgba(17, 53, 69, 0.08);
   }
 
   :where([id^="accordion-collapse-body-"], #searchResults)
@@ -16310,13 +16332,15 @@ import Layout from "../layouts/Layout.astro";
     > img {
     width: 144px;
     height: 144px;
-    margin: 0 auto 1rem;
+    margin: 0.2rem auto 0.95rem;
     padding: 0;
     border-radius: 9999px;
-    background: #eef4f7;
-    box-shadow: 0 8px 18px rgba(17, 53, 69, 0.08);
-    object-fit: cover;
-    object-position: center 62%;
+    background: var(--bio-mist);
+    border: 2px solid #ffffff;
+    box-shadow:
+      0 10px 18px rgba(17, 53, 69, 0.1),
+      0 0 0 1px rgba(29, 71, 58, 0.08);
+    object-fit: contain;
   }
 
   :where([id^="accordion-collapse-body-"], #searchResults)
@@ -16330,11 +16354,11 @@ import Layout from "../layouts/Layout.astro";
     justify-content: center;
     min-height: 2.8rem;
     margin: 0 auto 0.45rem !important;
-    color: #15384a;
-    font-size: 1.05rem;
-    line-height: 1.25;
+    color: var(--bio-ink);
+    font-size: 1.01rem;
+    line-height: 1.28;
     font-weight: 700;
-    letter-spacing: -0.01em;
+    letter-spacing: 0;
     text-align: center;
   }
 
@@ -16349,8 +16373,8 @@ import Layout from "../layouts/Layout.astro";
     div[class*="bg-white"][class*="rounded-2xl"][class*="shadow-lg"]
     > p:first-of-type {
     min-height: 2.7rem;
-    color: #657985;
-    font-size: 0.95rem;
+    color: #567167;
+    font-size: 0.92rem;
     line-height: 1.35;
   }
 
@@ -16358,26 +16382,39 @@ import Layout from "../layouts/Layout.astro";
     div[class*="bg-white"][class*="rounded-2xl"][class*="shadow-lg"]
     > p:last-of-type {
     min-height: 2.8rem;
-    color: #324955;
+    color: var(--bio-ink-soft);
     font-size: 0.96rem;
     line-height: 1.4;
-    font-weight: 500;
+    font-weight: 600;
   }
 
   :where([id^="accordion-collapse-body-"], #searchResults)
     div[class*="bg-white"][class*="rounded-2xl"][class*="shadow-lg"]
     > div[class*="absolute inset-0"] {
+    position: absolute;
+    overflow: hidden;
     padding: 1.35rem 1.2rem;
-    background: linear-gradient(
-      180deg,
-      rgba(15, 58, 77, 0.82) 0%,
-      rgba(17, 53, 69, 0.97) 100%
-    );
+    background: rgba(17, 53, 69, 0.96);
     backdrop-filter: blur(4px);
     transform: translateY(8px);
     transition:
       opacity 220ms ease,
       transform 220ms ease;
+  }
+
+  :where([id^="accordion-collapse-body-"], #searchResults)
+    div[class*="bg-white"][class*="rounded-2xl"][class*="shadow-lg"]
+    > div[class*="absolute inset-0"]::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url("/img/flores.png");
+    background-repeat: no-repeat;
+    background-position: 10% 50%;
+    background-size: 350px auto;
+    opacity: 0.24;
+    filter: saturate(0.85);
+    pointer-events: none;
   }
 
   :where([id^="accordion-collapse-body-"], #searchResults)
@@ -16393,10 +16430,24 @@ import Layout from "../layouts/Layout.astro";
   :where([id^="accordion-collapse-body-"], #searchResults)
     div[class*="bg-white"][class*="rounded-2xl"][class*="shadow-lg"]
     > div[class*="absolute inset-0"]
+    > a {
+    position: relative;
+    z-index: 1;
+    color: #f4fbf7;
+    text-shadow: 0 1px 2px rgba(10, 24, 30, 0.35);
+  }
+
+  :where([id^="accordion-collapse-body-"], #searchResults)
+    div[class*="bg-white"][class*="rounded-2xl"][class*="shadow-lg"]
+    > div[class*="absolute inset-0"]
+    > p,
+  :where([id^="accordion-collapse-body-"], #searchResults)
+    div[class*="bg-white"][class*="rounded-2xl"][class*="shadow-lg"]
+    > div[class*="absolute inset-0"]
     > a,
   .text-dm {
-    font-size: 0.88rem;
-    line-height: 1.4;
+    font-size: 0.94rem;
+    line-height: 1.45;
     letter-spacing: 0.01em;
   }
 
