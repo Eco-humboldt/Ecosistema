@@ -16297,8 +16297,8 @@ import Layout from "../layouts/Layout.astro";
     border-radius: 24px;
     background: linear-gradient(180deg, #ffffff 0%, #f8fbf8 74%, #f2f7f3 100%);
     box-shadow:
-      0 12px 28px var(--bio-shadow),
-      0 2px 8px rgba(17, 53, 69, 0.04);
+      0 10px 24px rgba(17, 53, 69, 0.085),
+      0 1px 5px rgba(17, 53, 69, 0.05);
     flex: 0 0 240px;
     transition:
       transform 200ms ease,
@@ -16323,8 +16323,8 @@ import Layout from "../layouts/Layout.astro";
     transform: translateY(-3px);
     border-color: rgba(42, 106, 88, 0.28);
     box-shadow:
-      0 18px 34px rgba(17, 53, 69, 0.13),
-      0 5px 11px rgba(17, 53, 69, 0.08);
+      0 16px 30px rgba(17, 53, 69, 0.12),
+      0 4px 10px rgba(17, 53, 69, 0.08);
   }
 
   :where([id^="accordion-collapse-body-"], #searchResults)
@@ -16357,8 +16357,8 @@ import Layout from "../layouts/Layout.astro";
     color: var(--bio-ink);
     font-size: 1.01rem;
     line-height: 1.28;
-    font-weight: 700;
-    letter-spacing: 0;
+    font-weight: 680;
+    letter-spacing: 0.01em;
     text-align: center;
   }
 
@@ -16375,7 +16375,8 @@ import Layout from "../layouts/Layout.astro";
     min-height: 2.7rem;
     color: #567167;
     font-size: 0.92rem;
-    line-height: 1.35;
+    line-height: 1.38;
+    letter-spacing: 0.005em;
   }
 
   :where([id^="accordion-collapse-body-"], #searchResults)
@@ -16386,6 +16387,7 @@ import Layout from "../layouts/Layout.astro";
     font-size: 0.96rem;
     line-height: 1.4;
     font-weight: 600;
+    letter-spacing: 0.004em;
   }
 
   :where([id^="accordion-collapse-body-"], #searchResults)
@@ -16447,7 +16449,7 @@ import Layout from "../layouts/Layout.astro";
     > a,
   .text-dm {
     font-size: 0.94rem;
-    line-height: 1.45;
+    line-height: 1.48;
     letter-spacing: 0.01em;
   }
 
