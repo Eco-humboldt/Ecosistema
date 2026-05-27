@@ -490,18 +490,7 @@ export const directoryData = [
     direccion: "Dirección Conocimiento",
     gerencia: "Centro de Colecciones y Gestión de Especies",
   },
-  {
-    id: "45",
-    name: "Germán Torres",
-    position: "Inv. Adjunto 1",
-    email: "gtorres@humboldt.org.co",
-    image:
-      "img/directorio/DICO/colecciones/especies/German Eduardo Torres Morales.jpg",
-    ciudad: "Bogotá",
-    profesion: "Biología",
-    direccion: "Dirección Conocimiento",
-    gerencia: "Centro de Colecciones y Gestión de Especies",
-  },
+  
   {
     id: "46",
     name: "Luisa Casas",
@@ -2788,18 +2777,7 @@ export const directoryData = [
     direccion: "Dirección de Relacionamiento",
     gerencia: "Gerencia de Experiencias",
   },
-  {
-    id: "249",
-    name: "Adriana Torres",
-    position: "Responsable",
-    email: "atorres@humboldt.org.co",
-    image:
-      "img/directorio/DIRE/gerenciaexperiencias/servicios/Adriana Mireya Torres Tovar.jpg",
-    ciudad: "Bogotá",
-    profesion: "Administración De Empresas",
-    direccion: "Dirección de Relacionamiento",
-    gerencia: "Gerencia de Experiencias",
-  },
+
   {
     id: "250",
     name: "Alessandra Osejo",
@@ -3276,18 +3254,7 @@ export const directoryData = [
     direccion: "Dirección de Desarrollo Organizacional",
     gerencia: "Gerencia de Gestión Estratégica",
   },
-  {
-    id: "297",
-    name: "Clara González",
-    position: "Analista",
-    email: "digitalizacion@humboldt.org.co",
-    image:
-      "img/directorio/DDO/gestionestrategica/gestiondocumental/Clara Cecilia Gonzalez.png",
-    ciudad: "Soacha - Cundinamarca",
-    profesion: "Administración De Empresas",
-    direccion: "Dirección de Desarrollo Organizacional",
-    gerencia: "Gerencia de Gestión Estratégica",
-  },
+
   {
     id: "298",
     name: "María Nancy Bello",
@@ -3676,18 +3643,6 @@ export const directoryData = [
       "img/directorio/DIFA/gerenciaadministrativa/logistica/gestionadministrativa/Ximena Parra Martin.png",
     ciudad: "Bogotá",
     profesion: "Asistencia Administrativa",
-    direccion: "Dirección Financiera y Administrativa",
-    gerencia: "Gerencia Administrativa",
-  },
-  {
-    id: "334",
-    name: "Karen Guzmán",
-    position: "Analista Junior",
-    email: "kguzman@humboldt.org.co",
-    image:
-      "img/directorio/DIFA/gerenciaadministrativa/logistica/agencia/Karen Lorena Guzman Nieto.jpg",
-    ciudad: "Chía - Cundinamarca",
-    profesion: "Administración De Empresas",
     direccion: "Dirección Financiera y Administrativa",
     gerencia: "Gerencia Administrativa",
   },
@@ -4739,17 +4694,7 @@ export const directoryData = [
     direccion: "Dirección Financiera y Administrativa",
     gerencia: "Gerencia Financiera",
   },
-  {
-    id: "429",
-    name: "Luis A. Borraez",
-    position: "Líder",
-    email: "lborraez@humboldt.org.co",
-    image: "img/directorio/DIRE/Luis Alejandro Borraez Contreras.jpg",
-    ciudad: "Bogotá",
-    profesion: "Comunicacion Social y Periodismo",
-    direccion: "Dirección de Relacionamiento",
-    gerencia: "",
-  },
+
   {
     id: "430",
     name: "Natalia A. Rodriguez",
@@ -4845,18 +4790,7 @@ export const directoryData = [
     direccion: "Dirección de Conocimiento",
     gerencia: "Gerencia de Centro Colecciones y Gestión de Especies",
   },
-  {
-    id: "438",
-    name: "Sigifredo Clavijo",
-    position: "Inv. Asistente 2",
-    email: "sclavijo@humboldt.org.co",
-    image:
-      "img/directorio/DICO/colecciones/anfibiosyreptiles/Sigifredo Clavijo Garzón.png",
-    ciudad: "Bogotá",
-    profesion: "Biología",
-    direccion: "Dirección de Conocimiento",
-    gerencia: "Gerencia de Centro Colecciones y Gestión de Especies",
-  },
+
   {
     id: "439",
     name: "Yeny Rocío López",
@@ -5102,17 +5036,7 @@ export const directoryData = [
     direccion: "Dirección de Conocimiento",
     gerencia: "Gerencia de Información Científica",
   },
-  {
-    id: "462",
-    name: "María C. García",
-    position: "Responsable",
-    email: "szapata@humboldt.org.co",
-    image: "img/directorio/DICO/colecciones/especies/Maria Garcia.png",
-    ciudad: "Bogotá",
-    profesion: "Comunicación Social y Periodismo",
-    direccion: "Comunicación Social y Periodismo",
-    gerencia: "Centro de Colecciones y Gestión de Especies",
-  },
+ 
   {
     id: "463",
     name: "Nyria A. Ramirez",
@@ -5217,19 +5141,6 @@ export const directoryData = [
     profesion: "Contaduría Pública",
     direccion: "Dirección Financiera y Administrativa",
     gerencia: "Gerencia Financiera",
-  },
-
-  {
-    id: "472",
-    name: "Néstor Roncancio",
-    position: "Inv. Adjunto 1",
-    email: "nroncancio@humboldt.org.co",
-    image:
-      "img/directorio/DICO/colecciones/especies/Nestor Javier Roncancio Duque.jpeg",
-    ciudad: "Bogotá",
-    profesion: "Medicina Veterinaria",
-    direccion: "Dirección de Conocimiento",
-    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
 
   {
