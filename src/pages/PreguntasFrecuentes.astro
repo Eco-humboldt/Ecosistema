@@ -2,14 +2,14 @@
 import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout title="Preguntas frecuentes | Talento Humano | Ecosistema Humboldt">
+<Layout title="Preguntas frecuentes | Gestión de Talento Humano | Ecosistema Humboldt">
   <main>
     <!-- ✅ ESTE DIV es el que tiene el fondo (NO el footer) -->
     <div class="th-page">
       <!-- Volver -->
       <div class="max-w-[90%] mx-auto w-full flex justify-start">
         <a
-          href="/missolicitudes"
+          href="/gestion-solicitudes"
           class="text-azul-humboldt text-base mt-10 mb-3 flex items-center cursor-pointer"
         >
           <img src="/img/volver.svg" alt="volver" width="20" class="mr-3" />
@@ -28,8 +28,8 @@ import Layout from "../layouts/Layout.astro";
             <!-- Columna derecha -->
             <div class="th-card">
               <h1 class="text-black text-5xl font-bold leading-tight">
-                Preguntas frecuentes de <span class="font-bold"
-                  >Talento Humano</span
+                Preguntas frecuentes: <span class="font-bold"
+                  >Gestión del Talento Humano</span
                 >
               </h1>
 
@@ -39,7 +39,7 @@ import Layout from "../layouts/Layout.astro";
                 <p>
                   En esta sección podrás consultar respuestas rápidas a las
                   preguntas más comunes sobre procesos, solicitudes y
-                  herramientas de Talento Humano.
+                  herramientas de la gestión del talento humano.
                 </p>
                 <p>
                   Usa el buscador para encontrar una pregunta por palabra clave.
@@ -63,84 +63,684 @@ import Layout from "../layouts/Layout.astro";
               </div>
 
               <!-- LISTA FAQ -->
-              <div class="mt-8 space-y-4" id="faqList">
-                <div class="faq-item">
-                  <button type="button" class="faq-question">
-                    ¿Dónde solicito mis vacaciones?
-                    <span class="faq-icon">+</span>
+              <div class="mt-8 space-y-8" id="faqList">
+<div class="faq-section mb-10">
+  <button type="button" class="section-toggle w-full flex items-center justify-between text-left focus:outline-none">
+    <h2 class="text-2xl font-bold text-azul-humboldt flex items-center m-0">
+      <span style="display: block; width: 4px; height: 24px; background-color: #EAB308; margin-right: 12px; flex-shrink: 0;"></span>
+      Administración del Personal
+    </h2>
+    <span class="section-icon text-xl transition-transform duration-300">▼</span>
+  </button>
+
+  <div class="section-content mt-5 transition-all duration-300 ease-in-out">  
+    <div class="space-y-4">
+
+      <div class="faq-item">
+        <button type="button" class="faq-question">
+          ¿Cómo solicito vacaciones, licencias no remuneradas o permisos?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Consulta el instructivo que te explica el paso a paso, los tiempos, responsabilidades y aprobadores que debes tener en cuenta.</p>
+          <div class="faq-links">
+            <a href="https://drive.google.com/file/d/1trxfQ_isfbY7GzGkrXbDl6guUbxo4yEl/view?usp=sharing" class="faq-pill">
+              Instructivo Solicitud de Licencias no Remuneradas, Vacaciones, Permisos, Horas Extras <span>›</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button type="button" class="faq-question">
+          ¿Qué debo hacer si tengo una queja por incumplimiento de ley por desconexión laboral?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Consulta el procedimiento donde encontrarás lo que debes tener en cuenta para presentar esta queja.</p>
+          <div class="faq-links">
+            <a href="https://docs.google.com/document/d/1EZk6Kxct1ZpUGYUYxGCyoCfKsdrBkeBJ/edit?usp=drive_link&ouid=110348004186323412557&rtpof=true&sd=true" class="faq-pill">
+              Formatos para interponer quejas de acoso laboral <span>›</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button type="button" class="faq-question">
+          ¿Qué debo tener en cuenta en caso de que me vaya a retirar del Instituto?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Consulta el procedimiento donde encontrarás lo que debes tener en cuenta si te vas a retirar del Instituto.</p>
+          <div class="faq-links">
+            <a href="https://drive.google.com/file/d/1QQwcfhjxJC2tU4Bo-WuKTkEU_8XpfOt2/view?usp=drive_link" class="faq-pill">
+              Procedimiento retiro y desvinculación <span>›</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button type="button" class="faq-question">
+          ¿Cómo solicito la autorización si debo dictar horas cátedra universitaria?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Debes diligenciar el formato y seguir el procedimiento correspondiente para aprobación. Una vez se encuentre diligenciado el formato se debe enviar a GGH con el soporte correspondiente.</p>
+          <div class="faq-links">
+            <a href="https://drive.google.com/file/d/1fyfOgAkRitOhwCAkNZtcKmB0zmkMV_Aw/view?usp=drive_link" class="faq-pill">
+              Procedimiento Autorización Horas Cátedra.pdf <span>›</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button type="button" class="faq-question">
+          ¿Qué hago si tengo una incapacidad o licencia médica?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Debes seguir este procedimiento para gestionar el trámite y el cobro correspondiente. Las incapacidades según el procedimiento deben enviarse por correo electrónico a alinares@humboldt.org.co, a su jefe inmediato, y si es ARL a seguridad y salud. Adicionalmente, las deben cargar en el siguiente <a href="https://script.google.com/a/macros/humboldt.org.co/s/AKfycbxZXxow7-1dGoYqmbWkTls5EVbhwkzhIKaMJGBEC0TdnpLcOTyyIBtObR42bk7toIQYtQ/exec" target="_blank" rel="noopener noreferrer" class="text-azul-humboldt underline font-medium">formato</a>.</p>
+          <div class="faq-links">
+            <a href="https://drive.google.com/file/d/1jY54eCiYOM3v67Pc1DpKRkHNaxS7F5yo/view?usp=drive_link" class="faq-pill">
+              Procedimiento Cobro de Incapacidades y/o Licencias.pdf <span>›</span>
+            </a>
+            <a href="https://drive.google.com/file/d/1FORCAV-VN7_Jm3cT575Efp1ePAt7Tbu2/view?usp=drive_link" class="faq-pill">
+              Nómina y prestaciones sociales.pdf <span>›</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button type="button" class="faq-question">
+          ¿Cómo solicito y legalizo mis cesantías?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p><strong>Solicitud:</strong> Descargar el "Formato solicitud Cesantías" del ecosistema, diligenciarlo, firmarlo y convertirlo en PDF. Adjuntar el documento correspondiente para soportar el retiro (revisar el formato). Enviar un correo con el asunto: <em>Solicitud de cesantías - Nombre del trabajador</em> a Patricia Linares Umaña y Evelin Viviana Alarcon Sierra, con copia a radicacion@humboldt.org.co.</p>
+          <p class="mt-2"><strong>Legalización:</strong> Una vez realices las mejoras o pago correspondiente debes realizar la legalización con los respectivos soportes en la misma cadena de correos que solicitaraste el retiro. Descargar el "Formato legalización cesantías" y adjuntar los soportes correspondientes.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button type="button" class="faq-question">
+          ¿Cómo solicito una certificación laboral?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Debes enviar un correo a Gestión Humana (maizaga@humboldt.org.co) solicitando el tipo de certificado que necesitas:</p>
+          <ol class="list-decimal pl-5 my-2 space-y-1 text-gray-700">
+            <li>Certificado laboral con salario</li>
+            <li>Certificado laboral con salario y funciones</li>
+            <li>Certificado laboral sin salario</li>
+            <li>Certificado laboral sin salario y funciones</li>
+          </ol>
+          <p>La certificación se enviará después de 5 días hábiles.</p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button type="button" class="faq-question">
+          ¿Si necesito que me realicen un descuento por nómina qué debo hacer?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Si necesitas autorizar un descuento (por ejemplo, libranza u otro), debes diligenciar el formato correspondiente.</p>
+          <div class="faq-links">
+            <a href="#" class="faq-pill">
+              Formato Autorización de Descuento por Nómina.doc <span>›</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button type="button" class="faq-question">
+          ¿Qué debo hacer si necesito realizar una reclasificación de alguien de mi equipo?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Las reclasificaciones las deben solicitar los Gerentes o Directores aplicando los criterios establecidos por el Instituto.</p>
+          <div class="faq-links">
+            <a href="#" class="faq-pill">
+              Formato Herramienta Criterios Reclasificación y Encargo Temporal.xlsx<span>›</span>
+            </a>
+            <a href="#" class="faq-pill">
+              Formato de solicitud de modificación de contrato <span>›</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button type="button" class="faq-question">
+          ¿Cómo interpongo una queja por acoso laboral ante el Comité de Convivencia?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Diligencia el formato oficial y preséntalo por los canales establecidos para el Comité.</p>
+          <div class="faq-links">
+            <a href="https://docs.google.com/document/d/1EZk6Kxct1ZpUGYUYxGCyoCfKsdrBkeBJ/edit?usp=sharing&ouid=110348004186323412557&rtpof=true&sd=true" class="faq-pill">
+              Formato para Interponer Quejas por Acoso Laboral Ante el Comité de Convivencia Laboral <span>›</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button type="button" class="faq-question">
+          ¿Cómo interpongo una queja por acoso sexual laboral?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>En caso de que requieras presentar una queja por presunto acoso sexual laboral, deberás comunicarte por correo electrónico con la profesional de Relaciones Laborales de Gestión Humana, quien establecerá contacto para orientar el proceso, activar las rutas institucionales correspondientes y brindar el acompañamiento inicial requerido.</p>
+          <p class="mt-2 text-sm text-gray-600"><em>El Instituto garantizará el manejo confidencial de la información, así como la protección de las personas involucradas y la aplicación del debido proceso.</em></p>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button type="button" class="faq-question">
+          ¿Qué procedimiento debo seguir de requerir declarar un conflicto de interés?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>En caso de requerir la declaración o reporte de un posible conflicto de interés, el trabajador deberá registrar una solicitud a través del aplicativo XTicket Mesa de Ayuda, seleccionando la categoría “Gestión Humana” y la subcategoría “Reportar conflicto de interés”. En el campo “Asunto” deberá indicar brevemente el motivo o tema relacionado con la situación a reportar.</p>
+          <div class="faq-links">
+            <a href="https://docs.google.com/document/d/1k-KZ3VNvROL0ZoIOwLwfhPeIZ4gyPqBL/edit?usp=drive_link&ouid=110348004186323412557&rtpof=true&sd=true" class="faq-pill">
+              Formato Declaración de Posibles Conflictos <span>›</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button type="button" class="faq-question">
+          ¿Puedo llevar mi perro a las sedes del Instituto?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Sí, ten en cuenta los siguientes requisitos y condiciones definidas en el procedimiento institucional.</p>
+          <div class="faq-links">
+            <a href="#" class="faq-pill">
+              Procedimiento Ingreso y Permanencia de Perros en las Sedes del Instituto.pdf <span>›</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button type="button" class="faq-question">
+          ¿Qué es la Política de Integridad y para qué sirve?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Es un documento marco institucional que unifica las políticas preexistentes del Instituto relacionadas con ética, integridad y convivencia laboral, con el fin de contar con un marco común de principios, valores y lineamientos de comportamiento. Establece las reglas generales que orientan la actuación de las personas vinculadas al Instituto, así como los lineamientos para la prevención y atención de situaciones de acoso laboral, abuso de poder con fines sexuales y discriminación.</p>
+          <div class="faq-links flex flex-wrap gap-2">
+            <a href="#" class="faq-pill">
+              Política de Integridad <span>›</span>
+            </a>
+            <a href="https://www.lxp.ubitslearning.com/learner/content/210468" target="_blank" class="faq-pill">
+              Curso de Integridad (UBITS) <span>›</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button type="button" class="faq-question">
+          ¿Qué es la Política de Administración del Talento Humano?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>La Política de Administración del Talento Humano contiene las reglas generales sobre administración del personal, beneficios, condiciones laborales y el capítulo de desconexión laboral.</p>
+          <div class="faq-links">
+            <a href="#" class="faq-pill">
+              Política Administración de Talento Humano <span>›</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button type="button" class="faq-question">
+          ¿Existe algún lineamiento de comportamiento en el Instituto?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>El Código Institucional de Conducta Íntegra es un instrumento orientador que promueve prácticas éticas, legales y responsables en el quehacer diario de las personas que trabajan o interactúan con el Instituto. Su objetivo busca fortalecer relaciones basadas en la confianza, el respeto mutuo y la cooperación.</p>
+          <div class="faq-links">
+            <a href="#" class="faq-pill">
+              Código Institucional de Conducta Íntegra <span>›</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button type="button" class="faq-question">
+          ¿Qué es el Programa de Ética y Transparencia?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Es el documento que reúne acciones y compromisos institucionales relacionados con transparencia, ética y buenas prácticas.</p>
+          <div class="faq-links">
+            <a href="#" class="faq-pill">
+              Programa Ética y Transparencia <span>›</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button type="button" class="faq-question">
+          ¿Cómo solicito una modificación de contrato?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>En caso de que se necesite realizar una modificación en los contratos de cualquier integrante de los equipos de trabajo, estas las deben solicitar los Gerentes o Directores por medio del formato institucional. Posteriormente notificar a Gestión Humana y Nómina para la respectiva validación y ajuste.</p>
+          <div class="faq-links">
+            <a href="#" class="faq-pill">
+              Formato solicitud de modificación contrato <span>›</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button type="button" class="faq-question">
+          ¿Qué hago si ocurre una situación que afecta el cumplimiento de las conductas íntegras?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Puedes consultar este procedimiento que indica ¿cómo reportar y gestionar situaciones que afecten la integridad institucional?</p>
+          <div class="faq-links">
+            <a href="#" class="faq-pill">
+              Procedimiento Gestión de Situaciones que Afecten el Cumplimiento de las Conductas Íntegras <span>›</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button type="button" class="faq-question">
+          ¿Dónde encuentro las normas de higiene y seguridad industrial?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Consulta este documento que contiene las medidas preventivas, lineamientos y condiciones de seguridad.</p>
+          <div class="faq-links">
+            <a href="#" class="faq-pill">
+              Reglamento Higiene y Seguridad Industrial.pdf <span>›</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button type="button" class="faq-question">
+          ¿Dónde consulto el reglamento del Comité de Convivencia Laboral?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>En este documento encontrarás cómo funciona el comité, su rol y sus reglas internas.</p>
+          <div class="faq-links">
+            <a href="#" class="faq-pill">
+              Reglamento Comité Convivencia Laboral.pdf <span>›</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button type="button" class="faq-question">
+          ¿Dónde consulto el reglamento interno de trabajo?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Define pautas y condiciones sobre las cuales se rige el desarrollo de las actividades institucionales con el fin de tener una relación laboral armónica, cordial y que procure la productividad.</p>
+          <div class="faq-links">
+            <a href="#" class="faq-pill">
+              Reglamento interno de trabajo <span>›</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button type="button" class="faq-question">
+          ¿Si debo realizar una salida de campo, qué protocolo debo tener en cuenta para esta salida?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>En este documento encontrarás las medidas especiales para reducir exposición en actividades fuera de sede.</p>
+          <div class="faq-links">
+            <a href="#" class="faq-pill">
+              Protocolo Medidas para Reducir el Riesgo de Exposición y Contagio del COVID-19 en las Salidas de Campo.pdf <span>›</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button type="button" class="faq-question">
+          ¿Dónde consulto la estructura salarial y equivalencias vigentes?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Consulta este archivo que contiene la estructura salarial oficial y equivalencias para 2026. Para la creación del cargo se debe realizar la solicitud.</p>
+          <div class="faq-links">
+            <a href="#" class="faq-pill">
+              Especificación estructura salarial y equivalentes 2026 <span>›</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button type="button" class="faq-question">
+          ¿Qué planes de emergencia debo conocer como trabajador?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Si necesitas conocer los planes de emergencia con los que contamos, consulta los siguientes documentos guía:</p>
+          <div class="faq-links flex flex-wrap gap-2">
+            <a href="#" class="faq-pill">Plan de Emergencias Institucional.pdf <span>›</span></a>
+            <a href="#" class="faq-pill">Plan de Emergencias Teletrabajo.pdf <span>›</span></a>
+            <a href="#" class="faq-pill">Plan Estratégico de Seguridad Vial.pdf <span>›</span></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button type="button" class="faq-question">
+          ¿Cómo solicito, devuelvo o reporto novedades de la dotación para salidas de campo?
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p><strong>Solicitud:</strong> Envia un correo a almacén indicando las prendas requeridas (camisa, pantalón, gorra, botas o chaleco; máx 1 unidad por tipo). Solicita a seguridadysalud@humboldt.org.co el formato <code>FORM-SST-21 Formato entrega epp y dotación</code>, diligéncialo, fírmalo y envíalo adjunto a almacén con copia a SST para su aval.</p>
+          <p class="mt-2"><strong>Devolución:</strong> Debe entregarse limpia en el almacén de la sede Calle 28 o sede Villa de Leyva para tramitar la firma del respectivo paz y salvo.</p>
+          <p class="mt-2"><strong>Novedades (pérdida, robo o cambios de talla):</strong> Informar inmediatamente al correo almacen@humboldt.org.co con copia a nmanosalva@humboldt.org.co para recibir la orientación del trámite a seguir.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- ------------------------- Fin Sección Politicas institucionales-------------------------------------------- -->
+<!-- -------------------------Sección Certificaciones Laborales-------------------------------------------- -->
+                 <!-- <div class="faq-section mb-10">
+  <button type="button" class="section-toggle w-full flex items-center justify-between text-left focus:outline-none">
+    <h2 class="text-2xl font-bold text-azul-humboldt flex items-center m-0">
+      <span style="display: block; width: 4px; height: 24px; background-color: #EAB308; margin-right: 12px; flex-shrink: 0;"></span>
+      Certificaciones Laborales
+    </h2>
+    <span class="section-icon text-xl transition-transform duration-300">▼</span>
+  </button>
+
+  <div class="section-content mt-5 transition-all duration-300 ease-in-out">
+    <div class="space-y-4">
+      <div class="faq-item">
+        <button type="button" class="faq-question">
+          ¿Cómo solicito una certificación laboral? 
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>
+            Debes ingresar al <b>portal de autogestión</b>...
+          </p>
+          </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+<!-- -------------------------Fin Sección Certificaciones Laborales-------------------------------------------- -->
+<!-- -------------------------Sección Incorporación del Talento humano-------------------------------------------- -->
+            <div class="faq-section mb-10">
+                  <button type="button" class="section-toggle w-full flex items-center justify-between text-left focus:outline-none">
+                    <h2 class="text-2xl font-bold text-azul-humboldt flex items-center m-0">
+                      <span style="display: block; width: 4px; height: 24px; background-color: #EAB308; margin-right: 12px; flex-shrink: 0;"></span>
+                      Incorporación del Talento Humano
+                    </h2>
+                    <span class="section-icon text-xl transition-transform duration-300">▼</span>
                   </button>
-                  <div class="faq-answer">
-                    Puedes solicitar tus vacaciones desde el <b
-                      >Portal de Autogestión Novasoft</b
-                    >. Allí podrás gestionar la solicitud y hacer seguimiento al
-                    estado.
+                <div class="section-content mt-5 transition-all duration-300 ease-in-out">
+                    
+                    <div class="space-y-4">
+                      
+                      <div class="faq-item">
+                        <button type="button" class="faq-question">
+                          ¿Qué debo tener en cuenta antes de iniciar una solicitud de contratación laboral? 
+                          <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                          Revisar si la vacante puede ser cubierta con talento interno, verificar que la vacante se encuentre previamente planificada y aprobada, 
+                          con fuente de financiación y estructura financiera por el tiempo de la vinculación para la respectiva solicitud del CAR.
+                          Verificar los perfiles de cargo existentes en el Ecosistema, con el fin de asegurar que correspondan a la necesidad de la vacante.
+                          <b>¿Quién hace la solicitud?</b>  Directores y Gerentes.
+                          <div class="faq-links">
+                          <!--<a href="https://drive.google.com/file/d/1PqqBzLSB1T-au7iIuvQA6bLevEOJS1R2/view?usp=drive_link" class="faq-pill" target="_blank" rel="noopener noreferrer">
+                                Descarga aquí el Manual de funciones<span>›</span>
+                            </a>--------------Se elimina por solicitud de Catalina Fernandez------------>
+                            <a href="https://drive.google.com/file/d/1wnf39QEMLFiNsZQAfYZ0FkuyjZfWAyJ0/view?usp=drive_link" class="faq-pill" target="_blank" rel="noopener noreferrer">
+                                Descarga aquí Perfiles de cargo<span>›</span>
+                            </a>
+                          </div>  
+                        </div>
+                      </div>
 
-                    <div class="faq-links">
-                      <a href="#" class="faq-pill">
-                        Mira el instructivo aquí <span>›</span>
-                      </a>
+                      <div class="faq-item">
+                        <button type="button" class="faq-question">
+                          ¿Cómo inicio formalmente una solicitud de incorporación de personal? 
+                          <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                          Se debe diligenciar el formato <b>Requerimiento de Personal</b> que se encuentra en Ecosistema 
+                          y enviarlo a los correos seleccion@humboldt.org.co y grupoincorporacion@humboldt.org.co Este documento integra 
+                          las características generales del cargo y los requisitos necesarios para participar en un proceso de 
+                          selección. 
+                          El profesional encargado del proceso de selección hará revisión de la solicitud y cuando el requerimiento 
+                          esté completo se procederá con firmas en el documento para dar inicio al proceso de selección.
+                          <b>¿Quién hace la solicitud?</b>  Directores y Gerentes.
+                          <div class="faq-links">
+                              <a href="https://docs.google.com/document/d/1_3rSOT6O_BCdzi0yHQo95j2TYTXVuDXE/edit?usp=sharing&ouid=110348004186323412557&rtpof=true&sd=true" class="faq-pill" target="_blank" rel="noopener noreferrer">
+                                  Descarga aquí el Formato Requerimiento de Personal <span>›</span>
+                              </a>
+                          </div>  
+                        </div>
+                      </div>
 
-                      <a href="#" class="faq-pill">
-                        Mira el tutorial aquí <span>›</span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
+                      <div class="faq-item">
+                        <button type="button" class="faq-question">
+                         ¿Cómo es el proceso de reclutamiento y selección? 
+                          <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                          El proceso comprende: atracción y preselección de talentos, 
+                          validación de requisitos mínimos del perfil, entrevistas, 
+                          pruebas técnicas, análisis, calificaciones y selección de candidato(a).
+                          <div class="faq-links">
+                              <a href="https://drive.google.com/file/d/1Z5uoA8e69yZQDj8m4PEfYuGi5q22ZuPz/view?usp=drive_link" class="faq-pill" target="_blank" rel="noopener noreferrer">
+                                  Descarga aquí el Procedimiento Reclutamiento y Selección de Personal <span>›</span>
+                              </a>
+                          </div>  
+                        </div>
+                      </div>
 
-                <div class="faq-item">
-                  <button type="button" class="faq-question">
-                    ¿Cómo descargo mi desprendible de nómina?
-                    <span class="faq-icon">+</span>
-                  </button>
-                  <div class="faq-answer">
-                    Puedes descargar tu desprendible de nómina desde <b
-                      >Xtickets</b
-                    >. Si no tienes acceso, valida con Talento Humano el usuario
-                    habilitado.
-                  </div>
-                </div>
+                      <div class="faq-item">
+                        <button type="button" class="faq-question">
+                         ¿Qué métodos de selección tiene el Instituto? 
+                          <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                          <p><b>Selección directa:</b> este método se ejecuta con un único candidato(a) que cumpla con el perfil definido 
+                          en el manual de funciones para el cargo a cubrir. Se puede realizar este método, siempre y cuando el 
+                          proyecto o convenio que genera la vacante así lo determine o cuando el Instituto lo estime necesario. 
+                          </p>
+                          
+                          <p><b>Lista corta:</b> en este método deben participar mínimo dos (2) candidatos, que cumplan con el perfil definido 
+                          en el manual de funciones para el cargo a cubrir. Este se puede realizar  cuando el proyecto o convenio 
+                          que genera la vacante así lo determine o cuando el Instituto lo estime necesario.
+                          </p>
+                          <div class="faq-links">
+                              <a href="https://drive.google.com/file/d/1Z5uoA8e69yZQDj8m4PEfYuGi5q22ZuPz/view?usp=drive_link" class="faq-pill" target="_blank" rel="noopener noreferrer">
+                                  Descarga aquí el Procedimiento Reclutamiento y Selección de Personal <span>›</span>
+                              </a>
+                          </div>  
+                        </div>
+                      </div>
 
-                <div class="faq-item">
-                  <button type="button" class="faq-question">
-                    ¿Dónde puedo descargar certificados laborales?
-                    <span class="faq-icon">+</span>
-                  </button>
-                  <div class="faq-answer">
-                    Los certificados laborales los puedes generar directamente
-                    en el
-                    <b>Portal de Autogestión Novasoft</b>.
-                  </div>
-                </div>
+                      <div class="faq-item">
+                        <button type="button" class="faq-question">
+                         ¿En qué momento se formaliza el inicio del proceso de contratación de personal? 
+                          <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                          Cuando el comité evaluador ha completado las evaluaciones correspondientes, 
+                          el encargado de gestionar el proceso de selección de la Gerencia de Gestión Humana, consolida y entrega al encargado del proceso de contratación, 
+                          el formato Selección y Solicitud de Trámite de Contrato Laboral indicando el/la candidato(a) seleccionado(a), para dar inicio al proceso de contratación.                         
+                        </div>
+                      </div>
 
-                <div class="faq-item">
-                  <button type="button" class="faq-question">
-                    ¿Qué hago si tengo problemas de acceso a una plataforma?
-                    <span class="faq-icon">+</span>
-                  </button>
-                  <div class="faq-answer">
-                    Si presentas inconvenientes, intenta primero con tu usuario
-                    institucional. Si el problema continúa, realiza una
-                    solicitud por <b>Xtickets</b> o contacta al área responsable.
-                  </div>
-                </div>
+                      <div class="faq-item">
+                        <button type="button" class="faq-question">
+                         ¿Cómo es el proceso de contratación laboral una vez seleccionado el/la candidato/a ? 
+                          <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                          El proceso comprende estas etapas: examen médico, solicitud y verificación de documentos, 
+                          solicitud de creación de terceros, gestión y solicitud de CAR, solicitud de correo institucional, 
+                          propuesta laboral, elaboración de contrato, afiliaciones a seguridad social, entre otros. 
+                          Cabe mencionar que la firma del contrato está sujeta a la aprobación de las etapas anteriormente 
+                          mencionadas, sin excepción.              
+                        </div>
+                      </div>
 
-                <div class="faq-item">
-                  <button type="button" class="faq-question">
-                    ¿Dónde reporto una solicitud o caso de Talento Humano?
-                    <span class="faq-icon">+</span>
-                  </button>
-                  <div class="faq-answer">
-                    Puedes reportar casos y solicitudes a través de <b
-                      >Xtickets</b
-                    >, según la categoría asignada.
-                  </div>
-                </div>
-              </div>
+                      <div class="faq-item">
+                        <button type="button" class="faq-question">
+                         ¿Qué tipos de contratación laboral existen en el Instituto? 
+                          <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                            <p>El instituto maneja diferentes modalidades de contratación, tales como:</p>
+                            <ul>
+                                <li>Contrato a término fijo</li>
+                                <li>Contrato por obra o labor</li>
+                                <li>Contrato laboral Especial de aprendizaje a término Fijo</li>
+                            </ul>
+                        </div>
+                      </div>
+
+                      <div class="faq-item">
+                        <button type="button" class="faq-question">
+                         ¿Qué condiciones deben cumplirse antes del inicio de labores de un nuevo trabajador? 
+                          <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                          Una vez el candidato seleccionado haya entregado toda la documentación requerida, 
+                          aprobado exámenes médicos, cuente con el plan de inducción, CAR aprobado, firma de la propuesta laboral 
+                          y el contrato de trabajo.  Podrá ejercer sus funciones única y exclusivamente a partir de la fecha 
+                          de firma del contrato.              
+                        </div>
+                      </div>
+
+                      <div class="faq-item">
+                        <button type="button" class="faq-question">
+                         ¿Cuándo puede ingresar el nuevo trabajador? 
+                          <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                          Se realizan dos incorporaciones al mes, una en la 1ra primera quincena y la otra en la 
+                          2da quincena del mes en curso. Aplican excepciones en  diciembre (cierre de novedades año contable) 
+                          en donde se realizará una sola incorporación mensual en una fecha definida por la Gerencia de Gestión Humana.              
+                        </div>
+                      </div>
+
+                      <div class="faq-item">
+                        <button type="button" class="faq-question">
+                         ¿Cómo vinculo  un pasante al Instituto? 
+                          <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                          Para vincular estudiantes de pregrado existen formatos y procedimientos específicos 
+                          que regulan su vinculación. Estos documentos indican cómo se realiza la solicitud, 
+                          evaluación y seguimiento durante el tiempo de práctica.
+                          <div class="faq-links">
+                              <a href="https://drive.google.com/file/d/1Bef8BMFXigEeO51CS8nqeqQrxy6xr5zQ/view?usp=sharing" class="faq-pill" target="_blank" rel="noopener noreferrer">
+                                Mira aquí el documento Movilidad Académica para la vinculación de estudiantes <span>›</span>
+                            </a>
+                            <a href="https://docs.google.com/spreadsheets/d/1v4K94PPY-VfpzkVFxbhXZTGj2lrIPRnq/edit?usp=drive_link&ouid=110348004186323412557&rtpof=true&sd=true" class="faq-pill" target="_blank" rel="noopener noreferrer">
+                                Mira aquí el Formato solicitud de práctica<span>›</span>
+                            </a>
+                            <a href="https://docs.google.com/spreadsheets/d/1gIbnkQ6KKYg37FAoSDg6-vg7CbSvomwc/edit?usp=drive_link&ouid=110348004186323412557&rtpof=true&sd=true" class="faq-pill" target="_blank" rel="noopener noreferrer">
+                                Mira aquí el Formato Convocatoria Practicantes <span>›</span>
+                            </a>
+                            <a href="https://docs.google.com/document/d/19NVhAmq6LIFYpxg4A4HIk3_wTeeJ049t/edit?usp=drive_link&ouid=110348004186323412557&rtpof=true&sd=true" class="faq-pill" target="_blank" rel="noopener noreferrer">
+                                Mira aquí el Formato Evaluación Práctica <span>›</span>
+                            </a>
+                          </div>  
+                        </div>
+                      </div>
+
+                      <div class="faq-item">
+                        <button type="button" class="faq-question">
+                         Si trabajo presencial y quiero solicitar la modalidad de teletrabajo, ¿qué debo hacer? 
+                          <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                          Debes realizar una solicitud formal. Esta solicitud se evalúa teniendo en cuenta las 
+                          condiciones del cargo y los lineamientos internos del Instituto.
+                          <div class="faq-links">
+                              <a href="https://drive.google.com/file/d/148xEZyd0s2rWmWFGUBMw9tLx26aKZCfG/view?usp=drive_link" class="faq-pill" target="_blank" rel="noopener noreferrer">
+                                Descarga aquí el Procedimiento Teletrabajo <span>›</span>
+                            </a><a href="https://docs.google.com/document/d/1bs-eldQL3-wFYV9dRyCw9fLlOq8nZ4ep/edit?usp=drive_link&ouid=110348004186323412557&rtpof=true&sd=true" class="faq-pill" target="_blank" rel="noopener noreferrer">
+                                Descarga aquí el Formato Solicitud Incorporación a la Modalidad de Teletrabajo <span>›</span>
+                            </a>
+                          </div>  
+                        </div>
+                      </div>
+
+                      <div class="faq-item">
+                        <button type="button" class="faq-question">
+                         ¿Qué documentos se revisan para aprobar el teletrabajo?
+                          <span class="faq-icon">+</span>
+                        </button>
+                        <div class="faq-answer">
+                          Se revisan las condiciones del lugar de trabajo, los equipos y 
+                          los requisitos tecnológicos. Todo esto queda registrado en formatos institucionales.
+                          <div class="faq-links">
+                              <a href="https://docs.google.com/document/d/1bs-eldQL3-wFYV9dRyCw9fLlOq8nZ4ep/edit?usp=drive_link&ouid=110348004186323412557&rtpof=true&sd=true" class="faq-pill" target="_blank" rel="noopener noreferrer">
+                                Descarga aquí el Formato Solicitud Incorporación a la Modalidad de Teletrabajo <span>›</span>
+                            </a>
+                            <a href="https://docs.google.com/spreadsheets/d/14FlggEbV2YXdt0YCY0Ibg7plvatw6CX7/edit?usp=drive_link&ouid=110348004186323412557&rtpof=true&sd=true" class="faq-pill" target="_blank" rel="noopener noreferrer">
+                                Descarga aquí el Formato Autoreporte Condiciones de Teletrabajo <span>›</span>
+                            </a>
+                            <a href="https://docs.google.com/document/d/1HLOBji8oVb_wPL_yaKVNvnUfnJ1DTm7k/edit?usp=drive_link&rtpof=true&sd=true" class="faq-pill" target="_blank" rel="noopener noreferrer">
+                                Descarga aquí el Formato Acta de Visita Teletrabajo <span>›</span>
+                            </a>
+                            <a href="https://docs.google.com/document/d/1tGPeidTYnFcMOo1mgBig8xHMCl6HDVhh/edit?usp=drive_link&rtpof=true&sd=true" class="faq-pill" target="_blank" rel="noopener noreferrer">
+                                Descarga aquí el Formato Verificación Requerimientos Tecnológicos Teletrabajo <span>›</span>
+                            </a>
+                            <a href="https://docs.google.com/document/d/1-n0jFlfBQxwHzA9Ha5uLPeuR8vZZw_XS/edit?usp=drive_link&ouid=110348004186323412557&rtpof=true&sd=true" class="faq-pill" target="_blank" rel="noopener noreferrer">
+                                Descarga aquí el Formato Reversibilidad <span>›</span>
+                            </a>
+                          </div>  
+                        </div>
+                      </div>
+                    </div> 
+                  </div> 
+                 
+<!-- -------------------------Fin Sección Incorporación del Talento humano-------------------------------------------- -->
+
             </div>
           </div>
         </div>
       </section>
     </div>
+  </div>
+  </div>
   </main>
 </Layout>
 <footer
@@ -268,7 +868,7 @@ import Layout from "../layouts/Layout.astro";
         <p class="text-white mb-2">
           Calle 72 # 12 - 65 Piso 7 Bogotá D.C., Colombia
         </p>
-        <p class="text-white mb-2">PBX: (+57) 601 320 2767</p>
+        <p class="text-white mb-2"> +57 (310)215 8291 +57 (310)215 8287</p>
       </div>
       <div>
         <div class="text-[12px] font-bold text-white mb-2">
@@ -380,63 +980,108 @@ import Layout from "../layouts/Layout.astro";
     };
     if (input) input.addEventListener("input", filterFaq);
   });
+
+// 1. Lógica para la sección completa
+  const sectionToggles = document.querySelectorAll('.section-toggle');
+  sectionToggles.forEach(toggle => {
+    toggle.addEventListener('click', () => {
+      const content = toggle.nextElementSibling;
+      // Verificamos que 'content' exista
+      if (content) {
+        content.classList.toggle('is-collapsed');
+        toggle.classList.toggle('active');
+      }
+    });
+  });
+
+  // 2. Lógica para las preguntas individuales (FAQ)
+  const faqQuestions = document.querySelectorAll('.faq-question');
+  faqQuestions.forEach(question => {
+    question.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const answer = question.nextElementSibling;
+      // Verificamos que 'answer' exista
+      if (answer) {
+        answer.classList.toggle('hidden');
+      }
+    });
+  }); 
 </script>
 
 <style>
-  /* ==============================
-     Fondo SOLO del contenido (igual a missolicitudes)
-     ============================== */
-  .th-page {
+
+/* Oculto por defecto (si lo prefieres así) */
+  .section-content.is-collapsed {
+    display: none;
+  }
+
+  /* Rotación del icono al cerrar */
+  .section-toggle.active .section-icon {
+    transform: rotate(-90deg);
+  }
+
+  /* Estilos para que el botón no parezca botón de sistema */
+  .section-toggle {
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+
+.th-page {
     position: relative;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
+    /* Eliminamos el overflow hidden para evitar problemas de scroll */
   }
 
   .th-page::after {
     content: "";
-    position: absolute;
-    inset: 0;
+    position: fixed; /* 👈 Cambiado de absolute a FIXED para que no se mueva */
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
     background-image: url("/img/Fondo-ecosistema.png");
     background-repeat: no-repeat;
     z-index: 0;
     pointer-events: none;
+    /* Esto evita que la imagen salte cuando el contenido crece */
+    background-attachment: fixed; 
   }
 
-  .th-page > * {
-    position: relative;
-    z-index: 1;
-  }
-
-  /* 📱 RESPONSIVE: Móvil (Pájaro abajo y completo) */
+  /* 📱 RESPONSIVE: Móvil */
   @media (max-width: 768px) {
-    .th-page {
-      /* Añadimos un padding inferior grande para que el contenido 
-         no tape al pájaro que estará al fondo */
-      padding-bottom: 300px;
-    }
-
     .th-page::after {
-      /* 'contain' asegura que la imagen no se corte */
       background-size: contain;
-      /* 'bottom' lo pega abajo, 'center' lo centra horizontalmente */
       background-position: bottom center;
     }
   }
 
-  /* 🖥️ DESKTOP: (Pájaro a la izquierda) */
+  /* 🖥️ DESKTOP: */
   @media (min-width: 1025px) {
-    .th-page {
-      padding-bottom: 80px;
-    }
-
     .th-page::after {
-      background-size: cover;
-      /* En escritorio, alineamos arriba a la izquierda */
+      /* Cambiamos cover por un tamaño que no dependa del crecimiento del div */
+      background-size: auto 100%; 
       background-position: left top;
     }
   }
+
+.faq-pill {
+  display: inline-flex; /* Permite que conviva con el texto */
+  align-items: center;
+  gap: 4px;
+  background: #111;
+  color: #fff !important; /* Forzamos color blanco */
+  border-radius: 999px;
+  padding: 2px 10px; /* Un poco más pequeño para que no ensanche mucho el renglón */
+  font-size: 11px;
+  font-weight: 700;
+  text-decoration: none;
+  vertical-align: middle; /* Lo alinea a la altura del texto */
+  margin: 0 4px; /* Espacio a los lados */
+}
 
   /* FAQ */
   .faq-content {
@@ -507,6 +1152,16 @@ import Layout from "../layouts/Layout.astro";
     color: #333;
     line-height: 1.6;
   }
+
+.faq-answer ul {
+    margin-top: 10px;      /* Espacio entre el texto y la lista */
+    padding-left: 20px;    /* Espacio para que los puntos no queden fuera */
+    list-style-type: disc; /* Asegura que el punto sea un círculo sólido */
+}
+
+.faq-answer li {
+    margin-bottom: 5px;    /* Espacio entre cada viñeta */
+}
 
   .faq-answer.open {
     display: block;
