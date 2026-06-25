@@ -490,7 +490,7 @@ export const directoryData = [
     direccion: "Dirección Conocimiento",
     gerencia: "Centro de Colecciones y Gestión de Especies",
   },
-  
+
   {
     id: "46",
     name: "Luisa Casas",
@@ -996,18 +996,6 @@ export const directoryData = [
     gerencia: "Centro de Estudio Socio Ecológicos y Cambio Global",
   },
   {
-    id: "90",
-    name: "Margarita Roa",
-    position: "Inv. Asistente 3",
-    email: "mroa@humboldt.org.co",
-    image:
-      "img/directorio/DICO/estudiossocioecologicos/analisisecosistemas/Margarita Maria Roa Cubillos.png",
-    ciudad: "Bucaramanga - Santander",
-    profesion: "Biología",
-    direccion: "Dirección Conocimiento",
-    gerencia: "Centro de Estudio Socio Ecológicos y Cambio Global",
-  },
-  {
     id: "91",
     name: "Jorge Amador",
     position: "Inv. Adjunto 1",
@@ -1016,18 +1004,6 @@ export const directoryData = [
       "img/directorio/DICO/estudiossocioecologicos/analisisecosistemas/Jorge Armando Amador Moncada.png",
     ciudad: "Bogotá",
     profesion: "Ingeniería Química",
-    direccion: "Dirección Conocimiento",
-    gerencia: "Centro de Estudio Socio Ecológicos y Cambio Global",
-  },
-  {
-    id: "92",
-    name: "Adriana Restrepo",
-    position: "Inv. Adjunto 1",
-    email: "arestrepo@humboldt.org.co",
-    image:
-      "img/directorio/DICO/estudiossocioecologicos/analisisecosistemas/Adriana Restrepo Isaza.jpg",
-    ciudad: "La Estrella - Antioquia",
-    profesion: "Biología",
     direccion: "Dirección Conocimiento",
     gerencia: "Centro de Estudio Socio Ecológicos y Cambio Global",
   },
@@ -5001,30 +4977,7 @@ export const directoryData = [
     direccion: "Dirección de Conocimiento",
     gerencia: "Gerencia de Información Científica",
   },
-  {
-    id: "459",
-    name: "Henry W. Gallo ",
-    position: "Inv. Asistente 1",
-    email: "hgallo@humboldt.org.co",
-    image:
-      "img/directorio/DICO/apropiacionsocial/cienciaparticipativa/Henry Gallo.png",
-    ciudad: "Bogotá",
-    profesion: "Biología",
-    direccion: "Dirección de Conocimiento",
-    gerencia: "Centro de Apropiación Social",
-  },
-  {
-    id: "460",
-    name: "Jessica Diaz",
-    position: "Inv. Asistente 1",
-    email: "jjdiazc@humboldt.org.co",
-    image:
-      "img/directorio/DICO/estudiossocioecologicos/aspectoseconomicos/Jessica Diaz.png",
-    ciudad: "Bogotá",
-    profesion: "Biología",
-    direccion: "Dirección de Conocimiento",
-    gerencia: "Centro de Estudios Socio Ecológicos y Cambio Global",
-  },
+
   {
     id: "461",
     name: "Hernando Solano",
@@ -5036,7 +4989,7 @@ export const directoryData = [
     direccion: "Dirección de Conocimiento",
     gerencia: "Gerencia de Información Científica",
   },
- 
+
   {
     id: "463",
     name: "Nyria A. Ramirez",
@@ -5505,6 +5458,90 @@ export const directoryData = [
     profesion: "Tecnólogo en Gestión de Talento Humano",
     direccion: "Dirección de Desarrollo Organizacional",
     gerencia: "Gerencia de Gestión Humana",
+  },
+  {
+    id: "507",
+    name: "Nathalia Otero Santamaria",
+    position: "Investigador",
+    email: "notero@humboldt.org.co",
+    image:
+      "img/directorio/DICO/informacioncientifica/analisisysintesis/Nathalia Otero Santamaria.jpeg",
+    ciudad: "Bogotá",
+    profesion: "Ecología",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Gerencia de Información Científica",
+  },
+  {
+    id: "508",
+    name: "Juan Jose Diazgranados",
+    position: "Analista",
+    email: "jdiazgranados@humboldt.org.co",
+    image:
+      "img/directorio/DIFA/gerenciafinanciera/planeacionfinanciera/Juan Jose Diaz_Granados Sierra.jpg",
+    ciudad: "Bogotá",
+    profesion: "Administración de Empresas",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Financiera",
+  },
+  {
+    id: "509",
+    name: "Cindy Rodriguez Fontecha",
+    position: "Abogada Esp 1",
+    email: "jrodriguez@humboldt.org.co",
+    image:
+      "img/directorio/DIFA/gerenciaadministrativa/contratos/Cindy Johana Rodriguez Fontecha.jpg",
+    ciudad: "Bogotá",
+    profesion: "Derecho",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
+  },
+  {
+    id: "510",
+    name: "Oscar Castillo Niño",
+    position: "Abogado Esp 1",
+    email: "ocastillo@humboldt.org.co",
+    image:
+      "img/directorio/DIFA/gerenciaadministrativa/contratos/Oscar Castillo Niño.jpg",
+    ciudad: "Bogotá",
+    profesion: "Derecho",
+    direccion: "Dirección Financiera y Administrativa",
+    gerencia: "Gerencia Administrativa",
+  },
+  {
+    id: "511",
+    name: "Yerson Suarez Cordoba",
+    position: "Inv. Asistente 3",
+    email: "ysuarez@humboldt.org.co",
+    image:
+      "img/directorio/DICO/solucionesnaturaleza/restauracion/Yerson Duban Suarez Cordoba.jpeg",
+    ciudad: "Bogotá",
+    profesion: "",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
+  },
+  {
+    id: "512",
+    name: "Marisol Hernandez Pineda",
+    position: "Inv. Asistente 1",
+    email: "mahernandez@humboldt.org.co",
+    image:
+      "img/directorio/DICO/apropiacionsocial/educacionambiental/Marisol Hernandez Pineda.jpg",
+    ciudad: "Bogotá",
+    profesion: "Psicología",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Apropiación Social",
+  },
+  {
+    id: "513",
+    name: "Andrea Zapata Marín",
+    position: "Inv. Asistente 1",
+    email: "azapata@humboldt.org.co",
+    image:
+      "img/directorio/DICO/apropiacionsocial/educacionambiental/Andrea Fernanda Zapata Marín.jpg",
+    ciudad: "Bogotá",
+    profesion: "",
+    direccion: "Dirección de Conocimiento",
+    gerencia: "Centro de Apropiación Social",
   },
 ];
 
