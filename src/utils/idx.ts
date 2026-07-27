@@ -17,14 +17,6 @@ export const directoryData = [
 
   {
     id: "3",
-    name: "Ximena Franco",
-    position: "Líder",
-    email: "xfranco@humboldt.org.co",
-    image: "img/directorio/direccion/Ximena Franco Villegas.png",
-    ciudad: "Bogotá",
-    profesion: "Ingeniería Industrial",
-    direccion: "Dirección General",
-    gerencia: "",
   },
   {
     id: "4",
@@ -853,15 +845,6 @@ export const directoryData = [
   },
   {
     id: "78",
-    name: "Julián Gómez",
-    position: "Inv. Titular 1",
-    email: "jgomez@humboldt.org.co",
-    image:
-      "img/directorio/DICO/estudiossocioecologicos/Julian David Gomez Gil.png",
-    ciudad: "Bogotá",
-    profesion: "Economía",
-    direccion: "Dirección Conocimiento",
-    gerencia: "Centro de Estudio Socio Ecológicos y Cambio Global",
   },
   {
     id: "79",
@@ -961,15 +944,6 @@ export const directoryData = [
   },
   {
     id: "87",
-    name: "Nicolas Betancourt",
-    position: "Inv. Asistente 1",
-    email: "nbetancourtc@humboldt.org.co",
-    image:
-      "img/directorio/DICO/estudiossocioecologicos/funcionamientoecosistemas/Nicolas Betancourt Cardona.png",
-    ciudad: "Bogotá",
-    profesion: "Matemáticas",
-    direccion: "Dirección Conocimiento",
-    gerencia: "Centro de Estudio Socio Ecológicos y Cambio Global",
   },
   {
     id: "88",
@@ -2046,15 +2020,6 @@ export const directoryData = [
   },
   {
     id: "186",
-    name: "Jose D. Gómez",
-    position: "Inv. Asistente 3",
-    email: "jdotero@humboldt.org.co",
-    image:
-      "img/directorio/DICO/informacioncientifica/Jose David Gomez Otero.jpg",
-    ciudad: "Ocaña - Norte de Santander",
-    profesion: "Ingeniería Electrónica",
-    direccion: "Dirección Conocimiento",
-    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "187",
@@ -2599,15 +2564,6 @@ export const directoryData = [
   },
   {
     id: "235",
-    name: "John Bernal",
-    position: "Analista Senior",
-    email: "jbernal@humboldt.org.co",
-    image:
-      "img/directorio/DIRE/gerenciaexperiencias/comunicaciones/arteydiseño/John Jairo Bernal Ibañez.jpg",
-    ciudad: "Biología",
-    profesion: "Biología",
-    direccion: "Dirección de Relacionamiento",
-    gerencia: "Gerencia de Experiencias",
   },
   {
     id: "236",
@@ -2898,15 +2854,6 @@ export const directoryData = [
   },
   {
     id: "265",
-    name: "Ángela Pérez",
-    position: "HRBP",
-    email: "aperez@humboldt.org.co",
-    image:
-      "img/directorio/DDO/gestionhumana/cultura/Angela Patricia Perez Cortes.png",
-    ciudad: "Bogotá",
-    profesion: "Psicología",
-    direccion: "Dirección de Desarrollo Organizacional",
-    gerencia: "Gerencia de Gestión Humana",
   },
   {
     id: "266",
@@ -3600,15 +3547,6 @@ export const directoryData = [
   },
   {
     id: "332",
-    name: "Gina Ortíz",
-    position: "Analista Junior",
-    email: "gortiz@humboldt.org.co",
-    image:
-      "img/directorio/DIFA/gerenciaadministrativa/logistica/agencia/Gina Ximena Ortiz Chinome.jpg",
-    ciudad: "Soacha - Cundinamarca",
-    profesion: "",
-    direccion: "Dirección Financiera y Administrativa",
-    gerencia: "Gerencia Administrativa",
   },
   {
     id: "333",
@@ -3624,13 +3562,13 @@ export const directoryData = [
   },
   {
     id: "335",
-    name: "Harry Manosalva",
-    position: "Analista Senior",
-    email: "hmanosalva@humboldt.org.co",
+    name: "Magda Yineth Gómez",
+    position: "Responsable de Activos y Almacén<",
+    email: "mygomez@humboldt.org.co",
     image:
-      "img/directorio/DIFA/gerenciaadministrativa/compras/Nic Harry Manosalva Hurtado.png",
+      "img/directorio/DIFA/gerenciaadministrativa/logistica/almacen/Magda Yinet Gomez Chitiva.jpeg",
     ciudad: "Bogotá",
-    profesion: "Comercio Internacional",
+    profesion: "Ingeniería Industrial",
     direccion: "Dirección Financiera y Administrativa",
     gerencia: "Gerencia Administrativa",
   },
@@ -4406,15 +4344,6 @@ export const directoryData = [
   },
   {
     id: "407",
-    name: "Daniela Manquillo",
-    position: "Aux. Investigación 1",
-    email: "hmanquillo@humboldt.org.co",
-    image:
-      "img/directorio/DICO/solucionesnaturaleza/restauracion/Herly Daniela Manquillo Quira.jpg",
-    ciudad: "Popayán - Cauca",
-    profesion: "Ciencia Política",
-    direccion: "Dirección de Conocimiento",
-    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
   },
   {
     id: "408",
@@ -4442,15 +4371,6 @@ export const directoryData = [
   },
   {
     id: "410",
-    name: "Cristian Beltrán",
-    position: "Aux. investigación 1",
-    email: "cbeltran@humboldt.org.co",
-    image:
-      "img/directorio/DICO/solucionesnaturaleza/restauracion/Cristian Leandro Beltran Izquierdo.jpg",
-    ciudad: "Guasca - Cundinamarca",
-    profesion: "",
-    direccion: "Dirección de Conocimiento",
-    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
   },
   {
     id: "411",
@@ -4526,15 +4446,6 @@ export const directoryData = [
   },
   {
     id: "417",
-    name: "Isabel Melo",
-    position: "Inv. Asistente 3",
-    email: "imelo@humboldt.org.co",
-    image:
-      "img/directorio/DICO/solucionesnaturaleza/urbana/Isabel Melo Vasquez.png",
-    ciudad: "Bogotá",
-    profesion: "Biología",
-    direccion: "Dirección de Conocimiento",
-    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
   },
   {
     id: "418",
@@ -4685,14 +4596,6 @@ export const directoryData = [
   },
   {
     id: "431",
-    name: "Andrés F. Vargas",
-    position: "Inv. Asistente 2",
-    email: "afvargas@humboldt.org.co",
-    image: "img/directorio/DICO/colecciones/mamiferos/Andres Felipe Vargas.png",
-    ciudad: "Bogotá",
-    profesion: "Biología",
-    direccion: "Dirección de Conocimiento",
-    gerencia: "Gerencia de Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "432",
@@ -5003,14 +4906,6 @@ export const directoryData = [
   },
   {
     id: "464",
-    name: "Maria I. Loaiza",
-    position: "Responsable Senior",
-    email: "mloaiza@humboldt.org.co",
-    image: "img/directorio/DICO/Maria I. Loaiza.png",
-    ciudad: "Bogotá",
-    profesion: "Bachiller",
-    direccion: "Dirección de Conocimiento",
-    gerencia: "Centro de Soluciones Basadas en la Naturaleza",
   },
   {
     id: "465",
@@ -5062,15 +4957,6 @@ export const directoryData = [
   },
   {
     id: "469",
-    name: "Milton F. Perez",
-    position: "Inv. Asistente 1",
-    email: "mfperez@humboldt.org.co",
-    image:
-      "img/directorio/DICO/estudiossocioecologicos/aspectoseconomicos/Milton Fabian Perez Cruz.jpg",
-    ciudad: "Bogotá",
-    profesion: "Ingeniería Agroecológica",
-    direccion: "Dirección de Conocimiento",
-    gerencia: "Centro de Estudios Socio Ecológicos y Cambio Global",
   },
   {
     id: "470",
@@ -5473,15 +5359,6 @@ export const directoryData = [
   },
   {
     id: "508",
-    name: "Juan Jose Diazgranados",
-    position: "Analista",
-    email: "jdiazgranados@humboldt.org.co",
-    image:
-      "img/directorio/DIFA/gerenciafinanciera/planeacionfinanciera/Juan Jose Diaz_Granados Sierra.jpg",
-    ciudad: "Bogotá",
-    profesion: "Administración de Empresas",
-    direccion: "Dirección Financiera y Administrativa",
-    gerencia: "Gerencia Financiera",
   },
   {
     id: "509",
