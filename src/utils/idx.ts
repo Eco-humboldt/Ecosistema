@@ -310,15 +310,6 @@ export const directoryData = [
   },
   {
     id: "30",
-    name: "Bomnierw L Hernández",
-    position: "Inv. Asistente 1",
-    email: "bhernandez@humboldt.org.co",
-    image:
-      "img/directorio/DICO/colecciones/curaduria/Bomnierw Lisefth Hernandez Acosta.png",
-    ciudad: "Villa de Leyva - Boyacá",
-    profesion: "Ingeniería Forestal",
-    direccion: "Dirección Conocimiento",
-    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "31",
@@ -614,7 +605,17 @@ export const directoryData = [
     direccion: "Dirección Conocimiento",
     gerencia: "Centro de Colecciones y Gestión de Especies",
   },
-
+  {
+    id: "57",
+    name: "Nataly Forero Chavez",
+    position: "Inv. Asistente 1",
+    email: "nforero@humboldt.org.co",
+    image: "img/directorio/ingresos_2026/agosto/Nataly Forero.png",
+    ciudad: "Villa de Leyva - Boyacá",
+    profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
+  },
   {
     id: "58",
     name: "Socorro Sierra",
@@ -675,12 +676,11 @@ export const directoryData = [
   },
   {
     id: "63",
-    name: "Khristian Venegas",
-    position: "Inv. Asistente 1",
-    email: "kvenegas@humboldt.org.co",
-    image:
-      "img/directorio/DICO/colecciones/anfibiosyreptiles/Khristian Venegas Valencia.png",
-    ciudad: "Villa de Leyva - Boyacá",
+    name: "Fabian Zapata",
+    position: "Investigador",
+    email: "fzapata@humboldt.org.co",
+    image: "img/directorio/ingresos_2026/agosto/Fabian Zapata.png",
+    ciudad: "Bogotá",
     profesion: "Biología",
     direccion: "Dirección Conocimiento",
     gerencia: "Centro de Colecciones y Gestión de Especies",
@@ -757,7 +757,17 @@ export const directoryData = [
     direccion: "Dirección Conocimiento",
     gerencia: "Centro de Colecciones y Gestión de Especies",
   },
-
+  {
+    id: "70",
+    name: "Daniela Pachón Prada",
+    position: "Inv. Asistente 1",
+    email: "dpachon@humboldt.org.co",
+    image: "img/directorio/ingresos_2026/agosto/Daniela Pachon.png",
+    ciudad: "Villa de Leyva - Boyacá",
+    profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
+  },
   {
     id: "71",
     name: "Jhon Neita",
@@ -777,6 +787,17 @@ export const directoryData = [
     email: "despitia@humboldt.org.co",
     image:
       "img/directorio/DICO/colecciones/insectos/Diana Patricia Espitia Reina.png",
+    ciudad: "Villa de Leyva - Boyacá",
+    profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Colecciones y Gestión de Especies",
+  },
+  {
+    id: "73",
+    name: "Juan Camilo Salgado",
+    position: "Inv. Asistente 1",
+    email: "jsalgado@humboldt.org.co",
+    image: "img/directorio/ingresos_2026/agosto/Juan Camilo Salgado.png",
     ciudad: "Villa de Leyva - Boyacá",
     profesion: "Biología",
     direccion: "Dirección Conocimiento",
@@ -809,11 +830,11 @@ export const directoryData = [
   },
   {
     id: "76",
-    name: "Julián Clavijo",
-    position: "Investigador",
-    email: "jclavijo@humboldt.org.co",
-    image: "img/directorio/DICO/colecciones/insectos/Julián Clavijo Bustos.jpg",
-    ciudad: "Villa de Leyva - Boyacá",
+    name: "Paula Andrea Morales",
+    position: "Inv. Adjunto 1",
+    email: "pmorales@humboldt.org.co",
+    image: "img/directorio/ingresos_2026/agosto/Paula Morales.png",
+    ciudad: "Medellín",
     profesion: "Biología",
     direccion: "Dirección Conocimiento",
     gerencia: "Centro de Colecciones y Gestión de Especies",
@@ -845,6 +866,14 @@ export const directoryData = [
   },
   {
     id: "78",
+    name: "Javier Roncancio",
+    position: "Inv. Adjunto 1",
+    email: "jroncancio@humboldt.org.co",
+    image: "img/directorio/ingresos_2026/agosto/Javier Roncancio.png",
+    ciudad: "Palmira - Valle",
+    profesion: "Biología",
+    direccion: "Dirección Conocimiento",
+    gerencia: "Centro de Estudio Socio Ecológicos y Cambio Global",
   },
   {
     id: "79",
@@ -2144,15 +2173,6 @@ export const directoryData = [
   },
   {
     id: "198",
-    name: "Esteban Marentes",
-    position: "Inv. Asistente 1",
-    email: "emarentes@humboldt.org.co",
-    image:
-      "img/directorio/DICO/informacioncientifica/integraciondatos/Esteban Marentes Herrera.png",
-    ciudad: "Fusagasugá - Cundinamarca",
-    profesion: "Biología Ambiental",
-    direccion: "Dirección Conocimiento",
-    gerencia: "Gerencia de Información Científica",
   },
   {
     id: "199",
@@ -2407,15 +2427,6 @@ export const directoryData = [
   },
   {
     id: "221",
-    name: "Orlando Vargas",
-    position: "Especialista Senior",
-    email: "ovargas@humboldt.org.co",
-    image:
-      "img/directorio/DIRE/gerenciapolitica/cooperacion/Orlando Vargas Rayo.jpg",
-    ciudad: "Cali - Valle",
-    profesion: "Economía",
-    direccion: "Dirección de Relacionamiento",
-    gerencia: "Gerencia de Política Pública y Cooperación",
   },
   {
     id: "222",
@@ -2687,15 +2698,6 @@ export const directoryData = [
   },
   {
     id: "247",
-    name: "Diana Díaz",
-    position: "Líder",
-    email: "ddiaz@humboldt.org.co",
-    image:
-      "img/directorio/DIRE/gerenciaexperiencias/servicios/Diana Lucia Diaz Gomez.png",
-    ciudad: "Bogotá",
-    profesion: "Biología",
-    direccion: "Dirección de Relacionamiento",
-    gerencia: "Gerencia de Experiencias",
   },
   {
     id: "248",
@@ -4533,15 +4535,6 @@ export const directoryData = [
   },
   {
     id: "426",
-    name: "Adriana X. Pedroza",
-    position: "Inv. Asistente",
-    email: "apedroza@humboldt.org.co",
-    image:
-      "img/directorio/DICO/colecciones/especies/Adriana Ximena Pedroza Ramos.jpeg",
-    ciudad: "Tunja - Boyacá",
-    profesion: "Biología",
-    direccion: "Dirección de Conocimiento",
-    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "451",
@@ -4557,15 +4550,6 @@ export const directoryData = [
   },
   {
     id: "427",
-    name: "Sebastian Zapata",
-    position: "Inv. Asistente",
-    email: "szapata@humboldt.org.co",
-    image:
-      "img/directorio/DICO/colecciones/especies/Sebastián Zapata Montoya.jpeg",
-    ciudad: "",
-    profesion: "Ecología",
-    direccion: "Dirección de Conocimiento",
-    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   /* Nuevos ingresos Mayo y Junio 2025*/
 
@@ -4833,14 +4817,6 @@ export const directoryData = [
 
   {
     id: "454",
-    name: "Maira A. León",
-    position: "Analista Senior",
-    email: "mleon@humboldt.org.co",
-    image: "img/directorio/DIRE/gerenciapolitica/cooperacion/Maira Leon.png",
-    ciudad: "Bogotá",
-    profesion: "Gobierno de Relaciones Internacionales",
-    direccion: "Dirección de Relacionamiento",
-    gerencia: "Gerencia de Política Pública y Cooperación",
   },
 
   {
@@ -5021,14 +4997,6 @@ export const directoryData = [
 
   {
     id: "477",
-    name: "Andres F. Vargas",
-    position: " Investigador Asistente 2",
-    email: "afvargas@humboldt.org.co",
-    image: "img/directorio/DICO/colecciones/mamiferos/Andres Felipe Vargas.png",
-    ciudad: "Bogotá",
-    profesion: " Biología",
-    direccion: "Direccion de Conocimiento",
-    gerencia: "Centro de Colecciones y Gestión de Especies",
   },
   {
     id: "479",
